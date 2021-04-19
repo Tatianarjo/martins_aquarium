@@ -1,7 +1,5 @@
 .header {
     display: flex
-
-
     
 }
 
@@ -35,6 +33,9 @@
    border: 3px dotted goldenrod;
 }
 
-.footer{
-    
+footer {
+        height: 100px;
+        bottom:0;
+        width: 100%;
+        text-align:center}
 }
