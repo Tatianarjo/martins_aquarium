@@ -1,6 +1,25 @@
+body{
+    background-color: #ff9f1c;    }
+
 .header {
     display: flex
     
+}
+.headerfirst{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.header--care_tips{
+    display: flex;
+}
+
+.aside_right{
+    align-self: flex-end;
+}
+.ul--care_tips{
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -14,23 +33,32 @@
     display:flex;
 }
 .right{
-    flex: 1;
 
+    margin-top: 50px;
+    border: 3px solid #d10f80;
+    color: #1761A0;
+    background-color: #ffbf69;
 }
 
 .left{
     flex: 3
 }
 
+
 .section--locations{
-    border: green solid
+    border: green; 
+    background-color: #a2d2ff;
 }
 .fish{
     border: 3px dotted purple;
+    background-color: #2ec4b6;
+    
+
 }
 
 .quotes{
    border: 3px dotted goldenrod;
+   background-color: #cbf3f0;
 }
 
 footer {
