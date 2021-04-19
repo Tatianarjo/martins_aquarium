@@ -1,0 +1,40 @@
+.header {
+    display: flex
+
+
+    
+}
+
+.title {
+    display: flex;
+    margin-top: 50px;    
+    border: 3px dotted #1761A0;
+    color: #1761A0; 
+}
+
+.main{
+    display:flex;
+}
+.right{
+    flex: 1;
+
+}
+
+.left{
+    flex: 3
+}
+
+.section--locations{
+    border: green solid
+}
+.fish{
+    border: 3px dotted purple;
+}
+
+.quotes{
+   border: 3px dotted goldenrod;
+}
+
+.footer{
+    
+}
